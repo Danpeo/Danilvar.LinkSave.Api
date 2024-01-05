@@ -23,5 +23,5 @@ public class LinkGroupGroupRepository : ILinkGroupRepository
     }
 
     public async Task<LinkGroup?> GetAsync(Guid id) => 
-        await _context.LinkGroups.FirstOrDefaultAsync(lg => lg != null && lg.Id == id);
+        await _context.LinkGroups.FirstOrDefaultAsync(lg => lg.Id == id);
 }

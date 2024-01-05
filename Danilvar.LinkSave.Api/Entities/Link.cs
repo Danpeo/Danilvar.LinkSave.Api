@@ -1,6 +1,6 @@
 namespace Danilvar.LinkSave.Api.Entities;
 
-public class Link()
+public class Link
 {
     public Guid Id { get; set; } = Guid.NewGuid();
 
@@ -10,7 +10,7 @@ public class Link()
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-    public Link(string url, string description) : this()
+    public Link(string url, string description) 
     {
         Url = url;
         Description = description;
