@@ -4,6 +4,9 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Danilvar.UnitOfWork</Title>
+        <Authors>Daniel Varov</Authors>
+        <Description>Unit of work implementation.</Description>
     </PropertyGroup>
 
     <ItemGroup>
